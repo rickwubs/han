@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid orange;
+    background: orange;
+}
+
+article {
+    border: 1px solid blue;
+    background: blue;
+}
+
+figure {
+    border: 1px solid lightblue;
+    background: lightblue;
+}
+
+footer {
+    border: 1px solid red;
+    background: red;
+}
+
+nav {
+    border: 1px solid green;
+    background: green;
+}
+
+aside {
+    border: 1px solid purple;
+    background: purple;
+}

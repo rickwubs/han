@@ -1,0 +1,11 @@
+CREATE TABLE Klant (
+KlantNr INT NOT NULL,
+KlantVoornaam VARCHAR(30) NOT NULL,
+KlantAchternaam VARCHAR(50) NOT NULL,
+Adres VARCHAR(50) NOT NULL,
+Postcode VARCHAR(7) NOT NULL,
+Plaats VARCHAR(50) NOT NULL,
+EmailAdres VARCHAR(50) NOT NULL,
+Geboortedatum DATE,
+Geslacht VARCHAR(1) NOT NULL CHECK(name IN(‘M’, ‘V’))
+);

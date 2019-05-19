@@ -1,0 +1,235 @@
+-- Opdracht 4
+
+-- 2A
+-- Constraint
+ALTER TABLE Klant 
+ADD CONSTRAINT CK_Klant CHECK (geslacht IN('M', 'V'))
+
+-- Positieve test
+INSERT INTO Klant 
+VALUES(101, 'Klant', 'X', 'Teststraat 1', '1234AB', 'Arnhem', 'klant@biker.nl', '2000-01-01', 'M')
+
+-- Negatieve test
+INSERT INTO Klant 
+VALUES(101, 'Klant', 'X', 'Teststraat 1', '1234AB', 'Arnhem', 'klant@biker.nl', '2000-01-01', 'A')
+
+-- 2B
+-- Constraint
+ALTER TABLE Huurovereenkomst
+ADD CONSTRAINT CK_VerhuurBeginEindDatum CHECK (Startdatum < Einddatum);
+
+-- Positieve test
+INSERT INTO Huurovereenkomst
+VALUES(2338, '2019-01-24', '2019-01-25', null, 'Gereserveerd', 1, 'soups')
+
+
+-- Negatieve test
+INSERT INTO Huurovereenkomst
+VALUES(2338, '2019-01-25', '2019-01-24', null, 'Gereserveerd', 1, 'soups')
+
+-- 2C
+-- Constraint
+ALTER TABLE Schade 
+ADD CONSTRAINT CK_SchadeStartBetaalDatum CHECK (StartDatum <= BetaalDatum);
+-- LET OP: bij deze constraint moet de startdatum kleiner of GELIJK AAN de betaaldatum zijn, omdat anders de constraint niet kan worden uitgevoerd. Dit komt omdat de data in de tabel al regels bevat waar de startdatum gelijk is aan de betaaldatum.
+
+-- Positieve test
+INSERT INTO Schade
+VALUES(334, 'Achterband vervangen', '2019-01-24', null, null, '2019-01-25', 'soups', 13, 1)
+
+
+-- Negatieve test
+INSERT INTO Schade
+VALUES(334, 'Achterband vervangen', '2019-01-25', null, null, '2019-01-24', 'soups', 13, 1)
+
+-- 2D
+-- Constraint
+ALTER TABLE Klant
+ADD CONSTRAINT U_KlantEmail UNIQUE (EmailAdres)
+
+-- Positieve test
+INSERT INTO Klant
+VALUES(102, 'Klant', 'X', 'Teststraat 1', '1234AB', 'Arnhem', 'uniekemailadres@biker.nl', '2000-01-01', 'M')
+
+
+-- Negatieve test
+INSERT INTO Klant
+VALUES(102, 'Klant', 'X', 'Teststraat 1', '1234AB', 'Arnhem', 'amet.dapibus@parturientmontesnascetur.com', '2000-01-01', 'M')
+
+-- 2E
+-- Constraint
+CREATE FUNCTION dbo.VerzekeringFietsBeginDatum(@huurovereenkomstNr int)
+RETURNS DATE
+AS BEGIN 
+	RETURN (
+		SELECT v.Startdatum
+		FROM VerhuurdeFiets vf
+		INNER JOIN Huurovereenkomst h ON vf.HuurovereenkomstNr = h.HuurovereenkomstNr
+		INNER JOIN Verzekering v ON vf.Polisnummer = v.Polisnummer 
+		WHERE h.HuurovereenkomstNr = @huurovereenkomstNr
+	)
+END
+GO
+
+CREATE FUNCTION dbo.VerhuurBeginDatum(@huurovereenkomstNr int)
+RETURNS DATE
+AS BEGIN 
+	RETURN (
+		SELECT h.Startdatum
+		FROM VerhuurdeFiets vf
+		INNER JOIN Huurovereenkomst h ON vf.HuurovereenkomstNr = h.HuurovereenkomstNr
+		INNER JOIN Verzekering v ON vf.Polisnummer = v.Polisnummer 
+		WHERE h.HuurovereenkomstNr = @huurovereenkomstNr
+	)
+END
+GO
+
+ALTER TABLE Verzekering 
+ADD CONSTRAINT CK_Verzekering CHECK (dbo.VerzekeringFietsBeginDatum(HuurovereenkomstNr) <= dbo.VerhuurBeginDatum(HuurovereenkomstNr))
+
+-- Positieve test
+INSERT INTO Verzekering 
+VALUES(2613, '2019-01-24', '2019-07-24')
+
+INSERT INTO Huurovereenkomst
+VALUES(2339, '2019-01-25', '2019-01-28', '2019-01-23', 'Betaald', 86, 'noodles')
+
+INSERT INTO VerhuurdeFiets
+VALUES(2339, 86, 2613) 
+
+-- Negatieve test
+INSERT INTO Verzekering 
+VALUES(2614, '2019-01-26', '2019-07-24')
+
+INSERT INTO Huurovereenkomst
+VALUES(2340, '2019-01-25', '2019-01-28', '2019-01-23', 'Betaald', 86, 'noodles')
+
+INSERT INTO VerhuurdeFiets
+VALUES(2340, 86, 2614) 
+
+ALTER TABLE Verzekering DROP CONSTRAINT CK_Verzekering
+DROP FUNCTION [dbo].[VerzekeringFietsBeginDatum]
+DROP FUNCTION [dbo].[VerhuurBeginDatum]
+
+select * from verhuurdefiets
+select * from huurovereenkomst
+select * from verzekering
+
+DELETE FROM VerhuurdeFiets WHERE HuurovereenkomstNr IN(2340)
+DELETE FROM Verzekering WHERE Polisnummer IN(2614)
+DELETE FROM Huurovereenkomst WHERE HuurovereenkomstNr IN(2339, 2340)
+
+-- 2F
+-- Constraint
+ALTER TABLE Fiets 
+ADD CONSTRAINT CK_FietsDagprijsNieuwwaarde CHECK (Dagprijs < Nieuwwaarde)
+
+-- Positieve test
+INSERT INTO FIETS
+VALUES(101, 'Batavus', 'Hill', 'H', 0, 100, 1000)
+
+-- Negatieve test
+INSERT INTO FIETS
+VALUES(101, 'Batavus', 'Hill', 'H', 0, 100, 99)
+
+-- 2G
+-- Positieve test
+INSERT INTO Medewerker
+VALUES('testmw', 'w8w00rd', '1990-01-01', 'Test', 'Medewerker')
+
+INSERT INTO Klant
+VALUES(103, 'Klant', 'X', 'Teststraat 1', '1234AB', 'Arnhem', 'medewerker103@biker.nl', '1990-01-01', 'M')
+
+-- Negatieve test
+INSERT INTO Medewerker
+VALUES('testmw', 'w8w00rd', '2019-01-01', 'Test', 'Medewerker')
+
+INSERT INTO Klant
+VALUES(103, 'Klant', 'X', 'Teststraat 1', '1234AB', 'Arnhem', 'medewerker103@biker.nl', '2019-01-01', 'M')
+
+-- 2H
+-- Positieve test
+INSERT INTO Huurovereenkomst
+VALUES(2341, '2019-01-24', '2019-01-25', '2019-01-24', 'Betaald', 86, 'noodles')
+
+INSERT INTO VerhuurdeFiets
+VALUES(2341, 1, null)
+
+INSERT INTO VerhuurdeAccessoire
+VALUES(2341, 1)
+
+-- Negatieve test
+INSERT INTO Huurovereenkomst
+VALUES(2342, '2019-01-24', '2019-01-25', '2019-01-24', 'Betaald', 86, 'noodles')
+
+INSERT INTO VerhuurdeAccessoire
+VALUES(2342, 1)
+
+-- 2I
+-- Positieve test
+INSERT INTO Huurovereenkomst
+VALUES(2343, '2019-01-24', '2019-01-25', '2019-01-24', 'Betaald', 86, 'noodles')
+
+INSERT INTO VerhuurdeFiets
+VALUES(2343, 1, null)
+
+INSERT INTO VerhuurdeAccessoire
+VALUES(2343, 1), (2343, 2)
+
+-- Negatieve test
+INSERT INTO Huurovereenkomst
+VALUES(2344, '2019-01-24', '2019-01-25', '2019-01-24', 'Betaald', 86, 'noodles')
+
+INSERT INTO VerhuurdeFiets
+VALUES(2344, 1, null)
+
+INSERT INTO VerhuurdeAccessoire
+VALUES(2344, 1), (2344, 2), (2344, 3)
+
+-- 2J
+-- Positieve test
+INSERT INTO Schade
+VALUES(335, 'Spaken vervangen', '2010-01-02', '2010-01-04', 100, '2010-01-02', 'cereals', 13, 1)
+
+-- Negatieve test
+INSERT INTO Schade
+VALUES(335, 'Spaken vervangen', '2010-01-06', '2010-01-08', 100, '2010-01-06', 'cereals', 13, 1)
+
+-- 2K.1
+ALTER TABLE Medewerker
+ADD CONSTRAINT U_MedewerkerInlognaam UNIQUE (Inlognaam)
+
+-- Positieve test
+INSERT INTO Medewerker
+VALUES('uniekeMedewerker', 'w8w00rd', '1990-01-01', '1234AB', 'Test', 'Medewerker')
+
+
+-- Negatieve test
+INSERT INTO Medewerker
+VALUES('noodles', 'w8w00rd', '1990-01-01', '1234AB', 'Test', 'Medewerker')
+
+-- 2K.2
+ALTER TABLE Fiets
+ADD CONSTRAINT CK_FietsDagprijs CHECK (Dagprijs > 0)
+
+-- Positieve test
+INSERT INTO Fiets
+VALUES(102, 'Trek', 'Special', 'H', 0, 10, 1000)
+
+-- Negatieve test
+INSERT INTO Fiets
+VALUES(103, 'Trek', 'Special', 'H', 0, 0, 1000)
+
+-- 2K.3
+ALTER TABLE Accessoire
+ADD CONSTRAINT CK_AccessoireDagprijs CHECK (Dagprijs > 0)
+
+-- Positieve test
+INSERT INTO Accessoire
+VALUES(101, 'Kinderzitje', 'Trek', 'Regular', 10, 1000)
+
+-- Negatieve test
+INSERT INTO Accessoire
+VALUES(102, 'Kinderzitje', 'Trek', 'Regular', 0, 1000)
+
+
