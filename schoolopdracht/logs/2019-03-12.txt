@@ -1,0 +1,237 @@
+[12-Mar-2019 07:48:46 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[12-Mar-2019 08:14:08 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(366): Twig_Parser->filterBodyNodes(Object(Twig_Node_Text), false)
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(83): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Signup/new.html')
+#6 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Signup/new.html', Array)
+#7 C:\xampp\htdocs\App\Controllers\Signup.php(31): Core\View::renderTemplate('Signup/new.html')
+#8 [internal function]: App\Controllers\Signup->newAction()
+#9 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#11 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/new')
+#12 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\Signup\new.html' on line 4
+[12-Mar-2019 08:14:12 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(366): Twig_Parser->filterBodyNodes(Object(Twig_Node_Text), false)
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(83): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Signup/new.html')
+#6 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Signup/new.html', Array)
+#7 C:\xampp\htdocs\App\Controllers\Signup.php(31): Core\View::renderTemplate('Signup/new.html')
+#8 [internal function]: App\Controllers\Signup->newAction()
+#9 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#11 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/new')
+#12 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\Signup\new.html' on line 4
+[12-Mar-2019 08:14:13 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(366): Twig_Parser->filterBodyNodes(Object(Twig_Node_Text), false)
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(83): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Signup/new.html')
+#6 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Signup/new.html', Array)
+#7 C:\xampp\htdocs\App\Controllers\Signup.php(31): Core\View::renderTemplate('Signup/new.html')
+#8 [internal function]: App\Controllers\Signup->newAction()
+#9 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#11 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/new')
+#12 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\Signup\new.html' on line 4
+[12-Mar-2019 08:14:32 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(366): Twig_Parser->filterBodyNodes(Object(Twig_Node_Text), false)
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(83): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Signup/new.html')
+#6 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Signup/new.html', Array)
+#7 C:\xampp\htdocs\App\Controllers\Signup.php(31): Core\View::renderTemplate('Signup/new.html')
+#8 [internal function]: App\Controllers\Signup->newAction()
+#9 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#11 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/new')
+#12 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\Signup\new.html' on line 4
+[12-Mar-2019 08:14:33 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(366): Twig_Parser->filterBodyNodes(Object(Twig_Node_Text), false)
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(83): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Signup/new.html')
+#6 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Signup/new.html', Array)
+#7 C:\xampp\htdocs\App\Controllers\Signup.php(31): Core\View::renderTemplate('Signup/new.html')
+#8 [internal function]: App\Controllers\Signup->newAction()
+#9 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#11 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/new')
+#12 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\Signup\new.html' on line 4
+[12-Mar-2019 08:15:43 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(366): Twig_Parser->filterBodyNodes(Object(Twig_Node_Text), false)
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(83): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Signup/new.html')
+#6 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Signup/new.html', Array)
+#7 C:\xampp\htdocs\App\Controllers\Signup.php(31): Core\View::renderTemplate('Signup/new.html')
+#8 [internal function]: App\Controllers\Signup->newAction()
+#9 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#11 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/new')
+#12 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\Signup\new.html' on line 4
+[12-Mar-2019 08:15:44 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'A template that extends another one cannot include content outside Twig blocks. Did you forget to put the content inside a {% block %} tag?''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(366): Twig_Parser->filterBodyNodes(Object(Twig_Node_Text), false)
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(83): Twig_Parser->filterBodyNodes(Object(Twig_Node))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Signup/new.html')
+#6 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Signup/new.html', Array)
+#7 C:\xampp\htdocs\App\Controllers\Signup.php(31): Core\View::renderTemplate('Signup/new.html')
+#8 [internal function]: App\Controllers\Signup->newAction()
+#9 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#11 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/new')
+#12 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\Signup\new.html' on line 4
+[12-Mar-2019 08:38:56 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Acount not found''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('acount/validate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 122
+[12-Mar-2019 08:43:22 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Acount not found''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('acount/validate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 122
+[12-Mar-2019 08:43:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Acount not found''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('acount/validate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 122
+[12-Mar-2019 08:43:23 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Acount not found''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('acount/validate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 122
+[12-Mar-2019 08:43:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Acount not found''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('acount/validate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 122
+[12-Mar-2019 08:43:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Acount not found''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('acount/validate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 122
+[12-Mar-2019 16:18:01 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[12-Mar-2019 16:36:07 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:36:08 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:36:18 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:36:19 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:36:21 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:36:56 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:37:10 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:37:14 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Login->newAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#3 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('login/new')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Login.php' on line 24
+[12-Mar-2019 16:41:04 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(41): Core\Router->dispatch('login')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[12-Mar-2019 16:51:46 Europe/Berlin] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function App\Models\User::__construct(), 0 passed and exactly 1 expected''
+Stack trace: #0 [internal function]: App\Models\User->__construct()
+#1 C:\xampp\htdocs\App\Models\User.php(135): PDOStatement->fetch()
+#2 C:\xampp\htdocs\App\Controllers\Login.php(41): App\Models\User::findByEmail('demo@daveh.io')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\public\index.php(42): Core\Router->dispatch('login/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 34
+[12-Mar-2019 16:51:51 Europe/Berlin] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function App\Models\User::__construct(), 0 passed and exactly 1 expected''
+Stack trace: #0 [internal function]: App\Models\User->__construct()
+#1 C:\xampp\htdocs\App\Models\User.php(135): PDOStatement->fetch()
+#2 C:\xampp\htdocs\App\Controllers\Login.php(41): App\Models\User::findByEmail('demo@daveh.io')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\public\index.php(42): Core\Router->dispatch('login/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 34
+[12-Mar-2019 16:52:01 Europe/Berlin] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function App\Models\User::__construct(), 0 passed and exactly 1 expected''
+Stack trace: #0 [internal function]: App\Models\User->__construct()
+#1 C:\xampp\htdocs\App\Models\User.php(135): PDOStatement->fetch()
+#2 C:\xampp\htdocs\App\Controllers\Login.php(41): App\Models\User::findByEmail('demo@daveh.io')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\public\index.php(42): Core\Router->dispatch('login/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 34
+[12-Mar-2019 16:52:05 Europe/Berlin] Uncaught exception: 'ArgumentCountError' with message 'Too few arguments to function App\Models\User::__construct(), 0 passed and exactly 1 expected''
+Stack trace: #0 [internal function]: App\Models\User->__construct()
+#1 C:\xampp\htdocs\App\Models\User.php(135): PDOStatement->fetch()
+#2 C:\xampp\htdocs\App\Controllers\Login.php(41): App\Models\User::findByEmail('demo@daveh.io')
+#3 [internal function]: App\Controllers\Login->createAction()
+#4 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#6 C:\xampp\htdocs\public\index.php(42): Core\Router->dispatch('login/create')
+#7 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 34

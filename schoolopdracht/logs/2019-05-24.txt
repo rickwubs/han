@@ -1,0 +1,56 @@
+[24-May-2019 14:23:10 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:24:09 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:29:49 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:32:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:33:07 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:34:19 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:35:12 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:35:18 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:35:33 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('items')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:35:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('items/index.php')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:35:52 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('items')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:36:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('items')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:36:27 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[24-May-2019 14:36:34 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('items/index.php')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125

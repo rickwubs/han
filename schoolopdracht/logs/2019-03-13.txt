@@ -1,0 +1,63 @@
+[13-Mar-2019 09:17:21 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(42): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[13-Mar-2019 14:02:21 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(42): Core\Router->dispatch('1')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[13-Mar-2019 14:03:53 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(42): Core\Router->dispatch('1')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[13-Mar-2019 15:37:24 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Items->indexAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('index', Array)
+#3 C:\xampp\htdocs\public\index.php(48): Core\Router->dispatch('items/index')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Items.php' on line 25
+[13-Mar-2019 15:37:27 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\View' not found''
+Stack trace: #0 [internal function]: App\Controllers\Items->indexAction()
+#1 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('index', Array)
+#3 C:\xampp\htdocs\public\index.php(48): Core\Router->dispatch('items/index')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Items.php' on line 25
+[13-Mar-2019 15:41:10 Europe/Berlin] Uncaught exception: 'Twig_Error_Syntax' with message 'Unexpected end of template.''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\TokenParser\If.php(40): Twig_TokenStream->next()
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Template.php(326): Twig_Environment->loadTemplate('base.html', NULL)
+#7 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code(15): Twig_Template->loadTemplate('base.html', 'Home/index.html', 1)
+#8 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(397): __TwigTemplate_1067e23726b2230c953077e804f706d74876bb5fd36c561caf060612771492d4->__construct(Object(Twig_Environment))
+#9 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Home/index.html')
+#10 C:\xampp\htdocs\Core\View.php(61): Twig_Environment->render('Home/index.html', Array)
+#11 C:\xampp\htdocs\App\Controllers\Home.php(50): Core\View::renderTemplate('Home/index.html', Array)
+#12 [internal function]: App\Controllers\Home->indexAction()
+#13 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('index', Array)
+#15 C:\xampp\htdocs\public\index.php(48): Core\Router->dispatch('')
+#16 {main}
+Thrown in 'C:\xampp\htdocs\App\Views\base.html' on line 32
+[13-Mar-2019 15:41:10 Europe/Berlin] PHP Fatal error:  Uncaught Twig_Error_Syntax: Unexpected end of template. in C:\xampp\htdocs\App\Views\base.html:32
+Stack trace:
+#0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\TokenParser\If.php(40): Twig_TokenStream->next()
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(168): Twig_TokenParser_If->parse(Object(Twig_Token))
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Parser.php(81): Twig_Parser->subparse(NULL, false)
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(533): Twig_Parser->parse(Object(Twig_TokenStream))
+#4 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(565): Twig_Environment->parse(Object(Twig_TokenStream))
+#5 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(368): Twig_Environment->compileSource(Object(Twig_Source))
+#6 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Template.php(326): Twig_Environment->loadTemplate('base.html', NULL)
+#7 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(378) : eval()'d code(15): Twig_Template->loadTemplate('base.html', '500.html', 1)
+#8 C:\xa in C:\xampp\htdocs\App\Views\base.html on line 32
+[13-Mar-2019 16:11:11 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\Auth' not found''
+Stack trace: #0 [internal function]: App\Controllers\Home->indexAction()
+#1 C:\xampp\htdocs\Core\Controller.php(54): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('index', Array)
+#3 C:\xampp\htdocs\public\index.php(48): Core\Router->dispatch('')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Home.php' on line 50
