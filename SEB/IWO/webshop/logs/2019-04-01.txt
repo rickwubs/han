@@ -1,0 +1,31 @@
+[01-Apr-2019 10:44:57 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(49): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[01-Apr-2019 11:20:58 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(49): Core\Router->dispatch('signup/activate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[01-Apr-2019 11:25:34 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(49): Core\Router->dispatch('signup/activate...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[01-Apr-2019 12:08:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('profile')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[01-Apr-2019 13:28:29 Europe/Berlin] Uncaught exception: 'Error' with message 'Class 'App\Controllers\Auth' not found''
+Stack trace: #0 [internal function]: App\Controllers\Profile->showAction()
+#1 C:\xampp\htdocs\Core\Controller.php(55): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('show', Array)
+#3 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('profile/show')
+#4 {main}
+Thrown in 'C:\xampp\htdocs\App\Controllers\Profile.php' on line 31
+[01-Apr-2019 13:43:48 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('profile.show')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[01-Apr-2019 16:46:41 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('css/img/wink.sv...')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125

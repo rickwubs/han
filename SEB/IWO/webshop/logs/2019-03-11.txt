@@ -1,0 +1,141 @@
+[11-Mar-2019 13:28:44 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[11-Mar-2019 13:34:49 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[11-Mar-2019 13:35:37 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[11-Mar-2019 13:35:56 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[11-Mar-2019 13:36:45 Europe/Berlin] Uncaught exception: 'Twig_Error_Loader' with message 'Unable to find template "Home/inde.html" (looked into: C:\xampp\htdocs/App/Views).''
+Stack trace: #0 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(143): Twig_Loader_Filesystem->findTemplate('Home/inde.html')
+#1 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(270): Twig_Loader_Filesystem->getCacheKey('Home/inde.html')
+#2 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(350): Twig_Environment->getTemplateClass('Home/inde.html')
+#3 C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Environment.php(289): Twig_Environment->loadTemplate('Home/inde.html')
+#4 C:\xampp\htdocs\Core\View.php(60): Twig_Environment->render('Home/inde.html', Array)
+#5 C:\xampp\htdocs\App\Controllers\Home.php(50): Core\View::renderTemplate('Home/inde.html', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('index', Array)
+#9 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'C:\xampp\htdocs\vendor\twig\twig\lib\Twig\Loader\Filesystem.php' on line 234
+[11-Mar-2019 13:45:32 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
+[11-Mar-2019 13:45:55 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method newAction not found in controller App\Controllers\Posts''
+Stack trace: #0 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('new', Array)
+#1 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('posts/new')
+#2 {main}
+Thrown in 'C:\xampp\htdocs\Core\Controller.php' on line 55
+[11-Mar-2019 14:36:03 Europe/Berlin] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Singup not found''
+Stack trace: #0 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('singup/new')
+#1 {main}
+Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 122
+[11-Mar-2019 15:30:30 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'demo@daveh.io' for key 'email'''
+Stack trace: #0 C:\xampp\htdocs\App\Models\User.php(64): PDOStatement->execute()
+#1 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 64
+[11-Mar-2019 15:31:12 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'rick.wubs@gmail.com' for key 'email'''
+Stack trace: #0 C:\xampp\htdocs\App\Models\User.php(64): PDOStatement->execute()
+#1 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 64
+[11-Mar-2019 15:33:02 Europe/Berlin] Uncaught exception: 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'demo@daveh.io' for key 'email'''
+Stack trace: #0 C:\xampp\htdocs\App\Models\User.php(64): PDOStatement->execute()
+#1 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#2 [internal function]: App\Controllers\Signup->createAction()
+#3 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#4 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#5 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#6 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 64
+[11-Mar-2019 15:58:45 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 15:59:10 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 15:59:24 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 16:01:13 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 16:12:39 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 16:15:20 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 16:15:30 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 16:16:00 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
+[11-Mar-2019 16:16:07 Europe/Berlin] Uncaught exception: 'Error' with message 'Call to a member function prepare() on null''
+Stack trace: #0 C:\xampp\htdocs\App\Controllers\Signup.php(46): App\Models\User->save()
+#1 [internal function]: App\Controllers\Signup->createAction()
+#2 C:\xampp\htdocs\Core\Controller.php(51): call_user_func_array(Array, Array)
+#3 C:\xampp\htdocs\Core\Router.php(117): Core\Controller->__call('create', Array)
+#4 C:\xampp\htdocs\public\index.php(40): Core\Router->dispatch('signup/create')
+#5 {main}
+Thrown in 'C:\xampp\htdocs\App\Models\User.php' on line 58
