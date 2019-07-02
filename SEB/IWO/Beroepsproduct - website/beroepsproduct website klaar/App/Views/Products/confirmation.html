@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %} Confirm your order {% endblock %}
+
+{% block body %}
+
+<h1>Payment</h1>
+
+{% for product in products %}
+<div class="images column">
+    <p>Item: {{product.name}} <span>Price: {{product.price}}</span></p>
+
+    <form method="post" action="/products/remove">
+        <input type="hidden" value="{{product.id}}" name="id">
+        <button type="submit" class="button-warning">Remove</button>
+    </form>
+</div>
+{% endfor %}
+
+<form action="/products/payment">
+    <button class="button-success">Pay</button>
+</form>
+
+{% endblock %}

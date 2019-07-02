@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block title %}Items{% endblock %}
+
+{% block body %}
+<h1>Products</h1>
+
+{% if current_user.is_admin %}
+<button class="button-success">
+    <a href="/products/new">Add</a>
+</button>
+{% endif %}
+
+<form method="post" action="/products/search" style="float: left;">
+    <label for="search">Search</label>
+    <input id="search" type="text" name="search">
+    <button type="submit">Search</button>
+</form>
+
+<form method="post" action="/products/filter">
+    <select name="category" id="Category" style="float: right;">
+        <option value="Keyboard">Keyboards</option>
+        <option value="Monitor">Monitors</option>
+        <option value="Computer">Computers</option>
+    </select>
+    <button type="submit" class="button-success">Filter</button>
+</form>
+
+<div class="container">
+    {% for product in products %}
+    <div class="images column">
+        <h2>{{product.name}}</h2>
+        <img src="data:image/jpeg;base64, {{product.image_small}}" alt="image_small"/>
+        <div class="price">
+            <p>{{product.description}}</p>
+            <p>{{product.price}}</p>
+        </div>
+        <p>Stock: {{product.stock}}</p>
+
+
+        <button class="button-success">
+            <a href="/products/{{product.id}}/details">Details</a>
+        </button>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

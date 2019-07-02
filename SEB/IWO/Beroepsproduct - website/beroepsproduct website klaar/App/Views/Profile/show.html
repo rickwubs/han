@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Profile{% endblock %}
+
+{% block body %}
+<h1>Profile</h1>
+<dl class="row">
+    <dt class="col-sm-3">Username</dt>
+    <dd class="col-sm-9">{{ user.username }}</dd>
+    <dt class="col-sm-3">Name</dt>
+    <dd class="col-sm-9">{{ user.firstname }} {{ user.prefix}} {{ user.lastname }}</dd>
+
+    <dt class="col-sm-3">Street</dt>
+    <dd class="col-sm-9">{{ user.street }}</dd>
+
+    <dt class="col-sm-3">House number</dt>
+    <dd class="col-sm-9">{{ user.number }}</dd>
+
+    <dt class="col-sm-3">Postcode</dt>
+    <dd class="col-sm-9">{{ user.postcode }}</dd>
+
+    <dt class="col-sm-3">City</dt>
+    <dd class="col-sm-9">{{ user.city }}</dd>
+
+    <dt class="col-sm-3">Email</dt>
+    <dd class="col-sm-9">{{ user.email }}</dd>
+
+    <dt class="col-sm-3">Admin</dt>
+    {% if user.is_admin %}
+    <dd class="col-sm-9">Yes</dd>
+    {% endif %}
+</dl>
+
+<button class="button-success">
+    <a href="/profile/edit">Edit</a>
+</button>
+{% endblock %}

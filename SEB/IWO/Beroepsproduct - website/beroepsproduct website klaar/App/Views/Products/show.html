@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block title %}Products{% endblock %}
+
+{% block body %}
+
+<h1>Products</h1>
+<h1>{{product.name}}</h1>
+<p>{{product.description}}</p>
+<p>{{product.category}}</p>
+<p>{{product.price}}</p>
+<p>{{product.stock}}</p>
+<!--<img src="data:image/jpeg;base64,{{product.image_big}}" alt="image_big"/>-->
+<img src="data:image/jpeg;base64, {{product.image_small}}" alt="image_small"/>
+{% endblock %}

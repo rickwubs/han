@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+
+{% block title %}Products{% endblock %}
+
+{% block body %}
+
+
+<h1>Products</h1>
+<div class="container">
+    <div class="images column">
+        <h2>{{product.name}}</h2>
+        <img src="data:image/jpeg;base64, {{product.image_small}}" alt="image_small"/>
+        <div class="price">
+            <p>{{product.description}}</p>
+            <p>{{product.price}}</p>
+        </div>
+        <p>Stock: {{product.stock}}</p>
+        <button>
+            <a href="/products/index">Back to list of products</a>
+        </button>
+
+        {% if current_user.is_admin %}
+        <form method="post" action="/products/delete">
+            <input type="hidden" value="{{product.id}}" name="id">
+            <button type="submit" class="button-warning">DELETE</button>
+        </form>
+        {% endif %}
+        <form method="post" action="/products/shopping">
+            <input type="hidden" value="{{product.id}}" name="id">
+            <button type="submit" class="button-success">BUY</button>
+        </form>
+    </div>
+</div>
+
+{% endblock %}

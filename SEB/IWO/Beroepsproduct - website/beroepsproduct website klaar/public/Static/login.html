@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-list left">
+            <li class="nav-item">
+                <a href="/" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="products.html" class="nav-link">Products</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="/products/cart" class="nav-link">Cart</a>
+            </li>
+        </ul>
+        <ul class="nav-list right">
+            <li class="nav-item">
+                <a href="/profile/show" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+                <a href="/logout" class="nav-link">Log out</a>
+            </li>
+            <li class="nav-item">
+                <a href="/signup" class="nav-link">Sign up</a>
+            </li>
+            <li class="nav-item">
+                <a href="/login" class="nav-link">Log in</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<article>
+    <h1>Login</h1>
+    <form method="post" action="/login/new">
+        <fieldset>
+            <legend>Login:</legend>
+            <label for="inputEmail">Email</label>
+            <input id="inputEmail" type="email" class="email" placeholder="email@example.com" required autofocus/>
+            <label for="inputPassword">Password</label>
+            <input id="inputPassword" type="password" class="password" required/>
+        </fieldset>
+    </form>
+</article>
+<aside class="sidebar">
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="login.html">login</a></li>
+        </ul>
+    </nav>
+</aside>
+<footer>
+    <div class="footer">
+        <p class="nav-list">Design by Rick Wubs&copy;,2019</p>
+        <nav class="nav-list">
+            <ul>
+                <li class="nav-item"><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %}Items{% endblock %}
+
+{% block body %}
+<h1>Products</h1>
+
+{% if current_user.is_admin %}
+<button class="button-success">
+    <a href="/products/new">Add</a>
+</button>
+{% endif %}
+
+<div class="container">
+    {% for product in products %}
+    <div class="images column">
+        <h2>{{product.name}}</h2>
+        <img src="data:image/jpeg;base64, {{product.image_small}}" alt="image_small"/>
+        <div class="price">
+            <p>{{product.description}}</p>
+            <p>{{product.price}}</p>
+        </div>
+        <p>Stock: {{product.stock}}</p>
+
+        <button class="button-success">
+            <a href="/products/{{product.id}}/details">Details</a>
+        </button>
+        <form method="post" action="/products/remove">
+            <input type="hidden" value="{{product.id}}" name="id">
+            <button type="submit" class="button-warning">Remove</button>
+        </form>
+    </div>
+    {% endfor %}
+</div>
+
+
+<h2>Total price: {{total}}</h2>
+
+<button class="button-success">
+    <a href="/products/confirmation">Click here to proceed to payment</a>
+</button>
+
+
+{% endblock %}

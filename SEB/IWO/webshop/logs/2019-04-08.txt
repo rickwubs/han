@@ -1,8 +1,0 @@
-[08-Apr-2019 09:53:38 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
-Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
-#1 {main}
-Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
-[08-Apr-2019 10:45:24 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.''
-Stack trace: #0 C:\xampp\htdocs\public\index.php(50): Core\Router->dispatch('favicon.ico')
-#1 {main}
-Thrown in 'C:\xampp\htdocs\Core\Router.php' on line 125
