@@ -1,0 +1,1591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/I-BIS/infsys/AANGEPASTE-CREATESCRIPT-OPDRACHT3.SQL">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wdh" />
+                <option name="line" value="71" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wdg" />
+                <option name="line" value="67" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wdf" />
+                <option name="line" value="63" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wde" />
+                <option name="line" value="58" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wdd" />
+                <option name="line" value="54" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wdc" />
+                <option name="line" value="49" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wdb" />
+                <option name="line" value="44" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36Wda" />
+                <option name="line" value="40" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdZ" />
+                <option name="line" value="36" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdY" />
+                <option name="line" value="32" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdX" />
+                <option name="line" value="28" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdW" />
+                <option name="line" value="24" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdV" />
+                <option name="line" value="20" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdU" />
+                <option name="line" value="16" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdT" />
+                <option name="line" value="12" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9P1OSLGlZ36WdS" />
+                <option name="line" value="8" />
+                <option name="message" value="Ensure that the WHERE clause is not missing in this DELETE query." />
+                <option name="ruleKey" value="plsql:DeleteOrUpdateWithoutWhereCheck" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/I-BIS/infsys/BIKER_QUERY-SCRIPT.SQL">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9M1OSLGlZ36WdQ" />
+                <option name="line" value="27" />
+                <option name="message" value="SELECT * should not be used." />
+                <option name="ruleKey" value="plsql:SelectStarCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9M1OSLGlZ36WdO" />
+                <option name="line" value="5" />
+                <option name="message" value="Add ASC in order to make the order explicit." />
+                <option name="ruleKey" value="plsql:OrderByExplicitAscCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9M1OSLGlZ36WdN" />
+                <option name="line" value="3" />
+                <option name="message" value="SELECT * should not be used." />
+                <option name="ruleKey" value="plsql:SelectStarCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Auth.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6c1OSLGlZ36Wbk" />
+                <option name="line" value="143" />
+                <option name="message" value="Make sure creating this cookie without the &quot;secure&quot; flag is safe here." />
+                <option name="ruleKey" value="php:S2092" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6c1OSLGlZ36Wbj" />
+                <option name="line" value="31" />
+                <option name="message" value="Make sure creating this cookie without the &quot;secure&quot; flag is safe here." />
+                <option name="ruleKey" value="php:S2092" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6c1OSLGlZ36Wbi" />
+                <option name="line" value="31" />
+                <option name="message" value="Make sure that this cookie is written safely." />
+                <option name="ruleKey" value="php:S2255" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6c1OSLGlZ36Wbg" />
+                <option name="line" value="31" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;remember_me&quot; 4 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6c1OSLGlZ36Wbh" />
+                <option name="line" value="30" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6c1OSLGlZ36Wbf" />
+                <option name="line" value="27" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;user_id&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6c1OSLGlZ36Wbe" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Config.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6w1OSLGlZ36Wb8" />
+                <option name="line" value="31" />
+                <option name="message" value="'password' detected in this variable name, review this potentially hardcoded credential." />
+                <option name="ruleKey" value="php:S2068" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Controllers/Login.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6N1OSLGlZ36WbZ" />
+                <option name="line" value="41" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;email&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6N1OSLGlZ36WbY" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Controllers/Password.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6Q1OSLGlZ36Wbb" />
+                <option name="line" value="54" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;token&quot; 4 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6Q1OSLGlZ36Wba" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Controllers/Products.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6K1OSLGlZ36WbW" />
+                <option name="line" value="151" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;/products/index&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6K1OSLGlZ36WbV" />
+                <option name="line" value="87" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;product&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6K1OSLGlZ36WbX" />
+                <option name="line" value="83" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="php:S125" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6K1OSLGlZ36WbT" />
+                <option name="line" value="69" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;/login&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6K1OSLGlZ36WbU" />
+                <option name="line" value="35" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;products&quot; 8 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Controllers/Profile.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6U1OSLGlZ36Wbc" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Controllers/Signup.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6X1OSLGlZ36Wbd" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Flash.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6s1OSLGlZ36Wb7" />
+                <option name="line" value="29" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;flash_notifications&quot; 6 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6s1OSLGlZ36Wb6" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Models/Product.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6n1OSLGlZ36Wb0" />
+                <option name="line" value="293" />
+                <option name="message" value="Replace this &quot;if-then-else&quot; statement by a single &quot;return&quot; statement." />
+                <option name="ruleKey" value="php:S1126" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6n1OSLGlZ36Wb3" />
+                <option name="line" value="248" />
+                <option name="message" value="Immediately return this expression instead of assigning it to the temporary variable &quot;$product&quot;." />
+                <option name="ruleKey" value="php:S1488" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6n1OSLGlZ36Wb2" />
+                <option name="line" value="225" />
+                <option name="message" value="Immediately return this expression instead of assigning it to the temporary variable &quot;$products&quot;." />
+                <option name="ruleKey" value="php:S1488" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6n1OSLGlZ36Wb1" />
+                <option name="line" value="134" />
+                <option name="message" value="Immediately return this expression instead of assigning it to the temporary variable &quot;$results&quot;." />
+                <option name="ruleKey" value="php:S1488" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6n1OSLGlZ36Wb4" />
+                <option name="line" value="66" />
+                <option name="message" value="Refactor this code to not construct the path from tainted, user-controlled data." />
+                <option name="ruleKey" value="phpsecurity:S2083" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6n1OSLGlZ36Wb5" />
+                <option name="line" value="65" />
+                <option name="message" value="Refactor this code to not construct the path from tainted, user-controlled data." />
+                <option name="ruleKey" value="phpsecurity:S2083" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Models/RememberedLogin.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6f1OSLGlZ36Wbl" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Models/User.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbz" />
+                <option name="line" value="478" />
+                <option name="message" value="Make sure that hashing data is safe here." />
+                <option name="ruleKey" value="php:S4790" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wby" />
+                <option name="line" value="354" />
+                <option name="message" value="Make sure that hashing data is safe here." />
+                <option name="ruleKey" value="php:S4790" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbt" />
+                <option name="line" value="250" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbo" />
+                <option name="line" value="230" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;:token_hash&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbs" />
+                <option name="line" value="179" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbr" />
+                <option name="line" value="137" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbw" />
+                <option name="line" value="119" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbv" />
+                <option name="line" value="115" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbp" />
+                <option name="line" value="76" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;:password_hash&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbn" />
+                <option name="line" value="74" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;:email&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbx" />
+                <option name="line" value="54" />
+                <option name="message" value="Make sure that hashing data is safe here." />
+                <option name="ruleKey" value="php:S4790" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbq" />
+                <option name="line" value="39" />
+                <option name="message" value="Remove this empty statement." />
+                <option name="ruleKey" value="php:S1116" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbu" />
+                <option name="line" value="333" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW6i1OSLGlZ36Wbm" />
+                <option name="line" value="0" />
+                <option name="message" value="3 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Views/Home/header.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5m1OSLGlZ36WbR" />
+                <option name="line" value="2" />
+                <option name="message" value="Add &quot;lang&quot; and/or &quot;xml:lang&quot; attributes to this &quot;&lt;html&gt;&quot; element" />
+                <option name="ruleKey" value="Web:S5254" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/App/Views/Products/show.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5w1OSLGlZ36WbS" />
+                <option name="line" value="13" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="Web:AvoidCommentedOutCodeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/Core/Controller.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7H1OSLGlZ36WcI" />
+                <option name="line" value="52" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/Core/Error.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7E1OSLGlZ36WcH" />
+                <option name="line" value="62" />
+                <option name="message" value="Make sure that this logger's configuration is safe." />
+                <option name="ruleKey" value="php:S4792" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7E1OSLGlZ36WcG" />
+                <option name="line" value="31" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7E1OSLGlZ36WcF" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/Core/Router.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36WcA" />
+                <option name="line" value="119" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36Wb_" />
+                <option name="line" value="116" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36Wb-" />
+                <option name="line" value="113" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36WcC" />
+                <option name="line" value="41" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36WcE" />
+                <option name="line" value="40" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="php:S125" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36WcB" />
+                <option name="line" value="38" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36WcD" />
+                <option name="line" value="37" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="php:S125" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7B1OSLGlZ36Wb9" />
+                <option name="line" value="0" />
+                <option name="message" value="2 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/Core/View.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7L1OSLGlZ36WcJ" />
+                <option name="line" value="36" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/public/Static/about.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5P1OSLGlZ36WbI" />
+                <option name="line" value="119" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5P1OSLGlZ36WbH" />
+                <option name="line" value="108" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5P1OSLGlZ36WbG" />
+                <option name="line" value="48" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5P1OSLGlZ36WbF" />
+                <option name="line" value="10" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/public/Static/login.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5V1OSLGlZ36WbO" />
+                <option name="line" value="65" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5V1OSLGlZ36WbN" />
+                <option name="line" value="54" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5V1OSLGlZ36WbM" />
+                <option name="line" value="10" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/public/Static/products.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5S1OSLGlZ36WbL" />
+                <option name="line" value="86" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5S1OSLGlZ36WbK" />
+                <option name="line" value="75" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5S1OSLGlZ36WbJ" />
+                <option name="line" value="10" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/public/index.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5a1OSLGlZ36WbQ" />
+                <option name="line" value="32" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;controller&quot; 7 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5a1OSLGlZ36WbP" />
+                <option name="line" value="32" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;action&quot; 7 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/public/js/app.js">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW4T1OSLGlZ36WbA" />
+                <option name="line" value="12" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="javascript:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW4T1OSLGlZ36Wa_" />
+                <option name="line" value="9" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="javascript:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/public/js/showHidePasswordBootstrap/bootstrap-show-password.js">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5N1OSLGlZ36WbE" />
+                <option name="line" value="7" />
+                <option name="message" value="Expected an assignment or function call and instead saw an expression." />
+                <option name="ruleKey" value="javascript:S905" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Beroepsproduct - website/beroepsproduct website klaar/public/js/showHidePasswordBootstrap/index.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5K1OSLGlZ36WbD" />
+                <option name="line" value="50" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5K1OSLGlZ36WbC" />
+                <option name="line" value="23" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="Web:AvoidCommentedOutCodeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW5K1OSLGlZ36WbB" />
+                <option name="line" value="2" />
+                <option name="message" value="Add &quot;lang&quot; and/or &quot;xml:lang&quot; attributes to this &quot;&lt;html&gt;&quot; element" />
+                <option name="ruleKey" value="Web:S5254" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Week 1/Oefening_interneting_is_hard/links-and-images/links.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7X1OSLGlZ36WcQ" />
+                <option name="line" value="16" />
+                <option name="message" value="Add rel=&quot;noopener noreferrer&quot; to this link to prevent the original page from being modified by the opened link." />
+                <option name="ruleKey" value="Web:S5148" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/SEB/IWO/Week 1/sementic-html/article.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7R1OSLGlZ36WcN" />
+                <option name="line" value="75" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7R1OSLGlZ36WcM" />
+                <option name="line" value="67" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7R1OSLGlZ36WcP" />
+                <option name="line" value="64" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7R1OSLGlZ36WcK" />
+                <option name="line" value="29" />
+                <option name="message" value="Add an &quot;alt&quot; attribute to this image." />
+                <option name="ruleKey" value="Web:ImgWithoutAltCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7R1OSLGlZ36WcO" />
+                <option name="line" value="28" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7R1OSLGlZ36WcL" />
+                <option name="line" value="12" />
+                <option name="message" value="Add an &quot;aria-label&quot; or &quot;aria-labbelledby&quot; attribute to this element." />
+                <option name="ruleKey" value="Web:S5255" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Auth.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8o1OSLGlZ36Wc9" />
+                <option name="line" value="150" />
+                <option name="message" value="Make sure creating this cookie without the &quot;secure&quot; flag is safe here." />
+                <option name="ruleKey" value="php:S2092" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8o1OSLGlZ36Wc8" />
+                <option name="line" value="38" />
+                <option name="message" value="Make sure creating this cookie without the &quot;secure&quot; flag is safe here." />
+                <option name="ruleKey" value="php:S2092" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8o1OSLGlZ36Wc7" />
+                <option name="line" value="38" />
+                <option name="message" value="Make sure that this cookie is written safely." />
+                <option name="ruleKey" value="php:S2255" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8o1OSLGlZ36Wc5" />
+                <option name="line" value="38" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;remember_me&quot; 4 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8o1OSLGlZ36Wc6" />
+                <option name="line" value="37" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8o1OSLGlZ36Wc4" />
+                <option name="line" value="34" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;user_id&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8o1OSLGlZ36Wc3" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Config.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8g1OSLGlZ36Wcy" />
+                <option name="line" value="39" />
+                <option name="message" value="'password' detected in this variable name, review this potentially hardcoded credential." />
+                <option name="ruleKey" value="php:S2068" />
+                <option name="severity" value="BLOCKER" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Controllers/Login.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW701OSLGlZ36Wce" />
+                <option name="line" value="46" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;email&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW701OSLGlZ36Wcd" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Controllers/Password.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7t1OSLGlZ36Wcc" />
+                <option name="line" value="59" />
+                <option name="message" value="Remove this unused &quot;$user&quot; local variable." />
+                <option name="ruleKey" value="php:S1481" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7t1OSLGlZ36Wcb" />
+                <option name="line" value="57" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;token&quot; 4 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7t1OSLGlZ36Wca" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Controllers/Profile.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW781OSLGlZ36Wcg" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Controllers/Signup.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW731OSLGlZ36Wcf" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Flash.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8i1OSLGlZ36Wc0" />
+                <option name="line" value="37" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;flash_notifications&quot; 6 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8i1OSLGlZ36Wcz" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Mail.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8l1OSLGlZ36Wc2" />
+                <option name="line" value="36" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="php:S125" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8l1OSLGlZ36Wc1" />
+                <option name="line" value="36" />
+                <option name="message" value="Complete the task associated to this &quot;TODO&quot; comment." />
+                <option name="ruleKey" value="php:S1135" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Models/Post.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8V1OSLGlZ36Wci" />
+                <option name="line" value="32" />
+                <option name="message" value="Immediately return this expression instead of assigning it to the temporary variable &quot;$results&quot;." />
+                <option name="ruleKey" value="php:S1488" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Models/RememberedLogin.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8X1OSLGlZ36Wcj" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Models/User.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcx" />
+                <option name="line" value="449" />
+                <option name="message" value="Make sure that hashing data is safe here." />
+                <option name="ruleKey" value="php:S4790" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcw" />
+                <option name="line" value="344" />
+                <option name="message" value="Make sure that hashing data is safe here." />
+                <option name="ruleKey" value="php:S4790" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcs" />
+                <option name="line" value="323" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcr" />
+                <option name="line" value="240" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcm" />
+                <option name="line" value="220" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;:token_hash&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcq" />
+                <option name="line" value="169" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcp" />
+                <option name="line" value="127" />
+                <option name="message" value="Merge this if statement with the enclosing one." />
+                <option name="ruleKey" value="php:S1066" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcu" />
+                <option name="line" value="109" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wct" />
+                <option name="line" value="105" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcn" />
+                <option name="line" value="70" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;:password_hash&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcl" />
+                <option name="line" value="69" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;:email&quot; 3 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wcv" />
+                <option name="line" value="56" />
+                <option name="message" value="Make sure that hashing data is safe here." />
+                <option name="ruleKey" value="php:S4790" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wco" />
+                <option name="line" value="41" />
+                <option name="message" value="Remove this empty statement." />
+                <option name="ruleKey" value="php:S1116" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8c1OSLGlZ36Wck" />
+                <option name="line" value="0" />
+                <option name="message" value="3 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/App/Views/base.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW8R1OSLGlZ36Wch" />
+                <option name="line" value="2" />
+                <option name="message" value="Add &quot;lang&quot; and/or &quot;xml:lang&quot; attributes to this &quot;&lt;html&gt;&quot; element" />
+                <option name="ruleKey" value="Web:S5254" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/Core/Controller.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW891OSLGlZ36WdG" />
+                <option name="line" value="59" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/Core/Error.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9D1OSLGlZ36WdK" />
+                <option name="line" value="66" />
+                <option name="message" value="Make sure that this logger's configuration is safe." />
+                <option name="ruleKey" value="php:S4792" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9D1OSLGlZ36WdJ" />
+                <option name="line" value="34" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9D1OSLGlZ36WdI" />
+                <option name="line" value="0" />
+                <option name="message" value="1 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/Core/Router.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36WdB" />
+                <option name="line" value="125" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36WdA" />
+                <option name="line" value="122" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36Wc_" />
+                <option name="line" value="119" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36WdD" />
+                <option name="line" value="47" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36WdF" />
+                <option name="line" value="46" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="php:S125" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36WdC" />
+                <option name="line" value="44" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="php:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36WdE" />
+                <option name="line" value="43" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="php:S125" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW851OSLGlZ36Wc-" />
+                <option name="line" value="0" />
+                <option name="message" value="2 duplicated blocks of code must be removed." />
+                <option name="ruleKey" value="common-php:DuplicatedBlocks" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/Core/View.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9B1OSLGlZ36WdH" />
+                <option name="line" value="36" />
+                <option name="message" value="Define and throw a dedicated exception instead of using a generic one." />
+                <option name="ruleKey" value="php:S112" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/public/index.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7p1OSLGlZ36WcZ" />
+                <option name="line" value="39" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;controller&quot; 6 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7p1OSLGlZ36WcY" />
+                <option name="line" value="39" />
+                <option name="message" value="Define a constant instead of duplicating this literal &quot;action&quot; 6 times." />
+                <option name="ruleKey" value="php:S1192" />
+                <option name="severity" value="CRITICAL" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7p1OSLGlZ36WcX" />
+                <option name="line" value="19" />
+                <option name="message" value="Complete the task associated to this &quot;TODO&quot; comment." />
+                <option name="ruleKey" value="php:S1135" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/public/js/app.js">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7m1OSLGlZ36WcW" />
+                <option name="line" value="12" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="javascript:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7m1OSLGlZ36WcV" />
+                <option name="line" value="9" />
+                <option name="message" value="Make sure that using a regular expression is safe here." />
+                <option name="ruleKey" value="javascript:S4784" />
+                <option name="severity" value="INFO" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/public/js/showHidePasswordBootstrap/bootstrap-show-password.js">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7h1OSLGlZ36WcR" />
+                <option name="line" value="7" />
+                <option name="message" value="Expected an assignment or function call and instead saw an expression." />
+                <option name="ruleKey" value="javascript:S905" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/public/js/showHidePasswordBootstrap/index.html">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7k1OSLGlZ36WcU" />
+                <option name="line" value="50" />
+                <option name="message" value="Replace this &lt;i&gt; tag by &lt;em&gt;." />
+                <option name="ruleKey" value="Web:BoldAndItalicTagsCheck" />
+                <option name="severity" value="MINOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7k1OSLGlZ36WcT" />
+                <option name="line" value="23" />
+                <option name="message" value="Remove this commented out code." />
+                <option name="ruleKey" value="Web:AvoidCommentedOutCodeCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW7k1OSLGlZ36WcS" />
+                <option name="line" value="2" />
+                <option name="message" value="Add &quot;lang&quot; and/or &quot;xml:lang&quot; attributes to this &quot;&lt;html&gt;&quot; element" />
+                <option name="ruleKey" value="Web:S5254" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/schoolopdracht/upload/index.php">
+          <value>
+            <set>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9G1OSLGlZ36WdM" />
+                <option name="line" value="1" />
+                <option name="message" value="Add &quot;lang&quot; and/or &quot;xml:lang&quot; attributes to this &quot;&lt;html&gt;&quot; element" />
+                <option name="ruleKey" value="Web:S5254" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+              <SonarIssue>
+                <option name="isNew" value="false" />
+                <option name="key" value="AW3tTW9G1OSLGlZ36WdL" />
+                <option name="line" value="1" />
+                <option name="message" value="Insert a &lt;!DOCTYPE&gt; declaration to before this &lt;html&gt; tag." />
+                <option name="ruleKey" value="Web:DoctypePresenceCheck" />
+                <option name="severity" value="MAJOR" />
+              </SonarIssue>
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
